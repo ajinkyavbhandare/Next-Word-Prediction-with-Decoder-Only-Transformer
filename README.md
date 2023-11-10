@@ -13,5 +13,5 @@ If you've already cloned the repository without Git LFS, you can download the LF
 
  run download-data.py
 
- # Acknowledgements
+ ## Acknowledgements
 1. [Text generation with a miniature GPT](https://keras.io/examples/generative/text_generation_with_miniature_gpt/)
