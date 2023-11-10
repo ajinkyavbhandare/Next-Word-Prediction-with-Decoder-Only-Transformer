@@ -9,6 +9,6 @@ If you don't have Git LFS installed, you can install it by following the instruc
 
 If you've already cloned the repository without Git LFS, you can download the LFS files with `git lfs pull`.
 
- ## Downloading the Model
+ ## Downloading the Data
 
  run download-data.py
