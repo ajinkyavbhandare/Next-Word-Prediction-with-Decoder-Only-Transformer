@@ -57,7 +57,7 @@ If you've already cloned the repository without Git LFS, you can download the LF
 
     ![streamlit interface](https://github.com/ajinkyavbhandare/Single-Block-Autoregressive-Text-Gen/blob/main/images/app.png)
 
-## Model training on the custom dataset or existing dataset
+## Training the model on a custom dataset or an existing dataset.
 
 1. Download the model:
     Run the following command in the terminal within the project directory:
