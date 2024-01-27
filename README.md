@@ -54,6 +54,9 @@ If you've already cloned the repository without Git LFS, you can download the LF
     ```
 
     The Streamlit app is now running and can be accessed at http://localhost:5000 in your web browser.
+
+    ![streamlit interface](https://github.com/ajinkyavbhandare/Single-Block-Autoregressive-Text-Gen/blob/main/images/app.png)
+
  
  
  This Streamlit app showcases a compact GPT-based autoregressive language model.  
