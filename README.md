@@ -29,8 +29,12 @@ For a seamless user experience, a user-friendly interface has been developed usi
 4. Fetch and download large files:
     Navigate to the cloned repository: cd <repo-name>
     Fetch all objects, including large files: git lfs fetch
-    Download the large files: git lfs pull
-5. Verify model download:
+    Download the large files:
+   
+    ```bash
+    $ git lfs pull
+    ```
+6. Verify model download:
     Check if the model file is present in the expected location within the repository.
 ## Installation
 1. Navigate to the directory containing your Streamlit app.
