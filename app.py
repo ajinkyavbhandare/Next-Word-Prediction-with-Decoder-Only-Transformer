@@ -78,7 +78,7 @@ for index, word in enumerate(vocab):
     word_to_index[word] = index
 
 
-st.title("Single Layer Generative Pretrained Model")
+st.title("Single Block Autoregressive Text Generation Model")
 st.write("""
 This Streamlit app showcases a compact GPT-based autoregressive language model. 
 It's built with a single Transformer block, featuring causal masking in its attention layer. 
