@@ -57,6 +57,13 @@ If you've already cloned the repository without Git LFS, you can download the LF
 
     ![streamlit interface](https://github.com/ajinkyavbhandare/Single-Block-Autoregressive-Text-Gen/blob/main/images/app.png)
 
+## Model training on the custom dataset or existing dataset
+
+1. Download model
+   Run following command in the teerminal inside project directory
+   '''bash
+   $ python download_data.py
+   '''
  
  
  This Streamlit app showcases a compact GPT-based autoregressive language model.  
@@ -65,9 +72,6 @@ If you've already cloned the repository without Git LFS, you can download the LF
 
 
 
- ## Downloading the Data
-
- run download-data.py
 
  ## Acknowledgements
 1. [Text generation with a miniature GPT](https://keras.io/examples/generative/text_generation_with_miniature_gpt/)
