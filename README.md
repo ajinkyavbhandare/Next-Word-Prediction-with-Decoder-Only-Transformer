@@ -66,7 +66,12 @@ If you've already cloned the repository without Git LFS, you can download the LF
    $ python download_data.py
    ```
     OR You can train the model on a custom dataset. Paste that data into the data folder of the project.
- 
+2. To train the model, run train.py. This will initiate the training process, which may take several hours depending on your hardware.
+
+     ```bash
+   $ python train.py
+   ```
+     
  
      Here's the Kaggle notebook for reference. Utilizing Kaggle GPUs allows for faster training of this model.  
      [Kaggle notebook for model training](https://www.kaggle.com/code/ajinkyabhandare2002/single-block-autoregressive-text-gen)  
