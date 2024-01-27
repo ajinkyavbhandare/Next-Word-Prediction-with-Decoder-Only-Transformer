@@ -19,6 +19,8 @@ If you've already cloned the repository without Git LFS, you can download the LF
 
 # Architecture
 
+![model architecture](https://github.com/ajinkyavbhandare/Single-Block-Autoregressive-Text-Gen/blob/main/images/architecture.png)
+
 # Installation and Setup
 1.  Install Git LFS:
     If you haven't already, download and install Git LFS from https://git-lfs.github.com/.
