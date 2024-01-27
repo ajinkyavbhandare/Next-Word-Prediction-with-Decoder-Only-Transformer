@@ -61,9 +61,10 @@ If you've already cloned the repository without Git LFS, you can download the LF
 
 1. Download model
    Run following command in the teerminal inside project directory
-   '''bash
+   
+   ```bash
    $ python download_data.py
-   '''
+   ```
  
  
  This Streamlit app showcases a compact GPT-based autoregressive language model.  
