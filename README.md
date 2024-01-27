@@ -67,12 +67,15 @@ If you've already cloned the repository without Git LFS, you can download the LF
    ```
     OR You can train the model on a custom dataset. Paste that data into the data folder of the project.
  
- This Streamlit app showcases a compact GPT-based autoregressive language model.  
- [visit here](https://app-z3qbiyomda-uc.a.run.app/)  
- [Kaggle notebook for model training](https://www.kaggle.com/code/ajinkyabhandare2002/single-block-autoregressive-text-gen)  
+ 
+     Here's the Kaggle notebook for reference. Utilizing Kaggle GPUs allows for faster training of this model.  
+     [Kaggle notebook for model training](https://www.kaggle.com/code/ajinkyabhandare2002/single-block-autoregressive-text-gen)  
+    
+# Improvements
+- Utilize GPU resources more efficiently: Explore techniques like mixed precision training, gradient accumulation, and model parallelization to maximize GPU utilization and reduce training time.
+- Leverage PyTorch Lightning: Consider migrating the training process to PyTorch Lightning to benefit from its built-in optimization features, such as automatic checkpointing, early stopping, and hyperparameter tuning. This can streamline the training process and potentially improve efficiency.
+- Implement beam search: Optimize text generation speed by using beam search instead of greedy decoding. This can lead to a faster generation process while maintaining high-quality output.
+- Caching: Implement caching mechanisms for frequently accessed data to reduce redundant computations and improve overall efficiency.
 
-
-
-
- ## Acknowledgements
+# Acknowledgements
 1. [Text generation with a miniature GPT](https://keras.io/examples/generative/text_generation_with_miniature_gpt/)
