@@ -59,13 +59,13 @@ If you've already cloned the repository without Git LFS, you can download the LF
 
 ## Model training on the custom dataset or existing dataset
 
-1. Download model
-   Run following command in the teerminal inside project directory
-   
-   ```bash
+1. Download the model:
+    Run the following command in the terminal within the project directory:
+
+    ```bash
    $ python download_data.py
    ```
- 
+    OR You can train the model on a custom dataset. Paste that data into the data folder of the project.
  
  This Streamlit app showcases a compact GPT-based autoregressive language model.  
  [visit here](https://app-z3qbiyomda-uc.a.run.app/)  
