@@ -1,4 +1,4 @@
-# Single Block Autoregressive Text Generation Model
+# Next-Word Prediction with Decoder-Only Transformer
 ## Project Overview
 
 The Single-Block-Autoregressive-Text-Gen project is centered around a concise GPT-based language model, specifically designed with a single Transformer block that incorporates causal masking in its attention layer. The model training is executed on Kaggle, harnessing the computational capabilities of GPU infrastructure to expedite the training process. The IMDB sentiment classification dataset serves as the training data, enabling the model to generate new movie reviews based on user prompts.
