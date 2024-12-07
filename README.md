@@ -1,7 +1,7 @@
 # Next-Word Prediction with Decoder-Only Transformer
 ## Project Overview
 
-The Single-Block-Autoregressive-Text-Gen project is centered around a concise GPT-based language model, specifically designed with a single Transformer block that incorporates causal masking in its attention layer. The model training is executed on Kaggle, harnessing the computational capabilities of GPU infrastructure to expedite the training process. The IMDB sentiment classification dataset serves as the training data, enabling the model to generate new movie reviews based on user prompts.
+Next-Word-Prediction-with-Decoder-Only-Transformer is a project based on a GPT-like decoder-only transformer architecture. It leverages causal masking and attention mechanisms to efficiently perform next-word prediction tasks. The model training is executed on Kaggle, harnessing the computational capabilities of GPU infrastructure to expedite the training process. The IMDB sentiment classification dataset serves as the training data, enabling the model to generate new movie reviews based on user prompts.
 
 For a seamless user experience, a user-friendly interface has been developed using Streamlit. This interface allows users to effortlessly input prompts and receive generated movie reviews. The use of Kaggle's GPU infrastructure for training, combined with the interactive Streamlit interface, creates an efficient and accessible platform for users to explore the autoregressive text generation capabilities of the model.
 
